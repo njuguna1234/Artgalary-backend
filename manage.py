@@ -1,6 +1,6 @@
 from app import create_app, db
 from flask_migrate import Migrate
-from werkzeug.utils import quote as url_quote
+from urllib.parse import quote as url_quote
 
 
 app = create_app()
